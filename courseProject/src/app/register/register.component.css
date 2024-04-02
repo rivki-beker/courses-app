@@ -1,0 +1,26 @@
+.hashadchan-registration-form {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.error-message {
+    color: #dc3545;
+    margin-top: 5px;
+}
+
+.btn-primary {
+    background-color: #081142;
+    border-color: #050d3a;
+    color: #fff;
+    margin: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #050d3a;
+    border-color: #050d3a;
+}

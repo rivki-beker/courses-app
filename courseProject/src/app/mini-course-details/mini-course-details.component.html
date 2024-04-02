@@ -1,0 +1,11 @@
+<div class="card-body">
+    <img [src]="course.image" alt="{{ course.name }} Image" class="img-fluid mb-3">
+    <h3 class="card-title">{{ course.name }}</h3>
+    <p class="card-text">Number of Lessons: {{ course.countOfLessons }}</p>
+    <span class="learning-mode-icon" [ngClass]="course.learningWay | learningWayIcon"></span>
+    <p class="card-text inline">Learning Way: {{course.learningWay?"Zoom": "frontal"}}</p>
+    <img [src]="category.icon" alt="{{ category.name }} Icon" class="img-fluid mb-3 round">
+    <p class="card-text">{{ category.name }}</p>
+    <br />
+    <button *ngIf="isConnected" class="btn btn-primary" (click)="goCourseDetails()">See More</button>
+</div>

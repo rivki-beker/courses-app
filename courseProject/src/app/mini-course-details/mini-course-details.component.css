@@ -1,0 +1,65 @@
+.learning-mode-icon {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+  }
+  
+  .frontal-icon {
+    background-image: url(../../assets/learning\ icons/img1.png);
+    background-size: cover;
+  }
+  
+  .zoom-icon {
+    background-image: url(../../assets/learning\ icons/img2.png);
+    background-size: cover;
+  }
+  
+  .default-icon {
+    background-color: gray;
+  }
+  
+.course-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.course-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.course-card p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.course-card img {
+  max-width: 100%;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.course-card button {
+  background-color: #081142;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.course-card button:hover,.btn-primary {
+  background-color: #081142;
+  border: none;
+}
+
+.round{
+  width: 70px;
+  border-radius: 50px;
+}
+  

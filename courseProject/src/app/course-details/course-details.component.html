@@ -1,0 +1,23 @@
+<div class="course-details-container">
+  <img [src]="course.image" class="img" />
+  <div>
+    <h3>{{course.name}}</h3>
+    <img [src]="category.icon" class="round" />
+    <p class="inline-big">{{category.name}}</p><br>
+    <span [ngClass]="'learning-mode-icon ' + (course.learningWay | learningWayIcon)"></span>
+    <p class="inline-big">{{course.learningWay? "Zoom":"frontal"}}</p><br>
+    <mat-form-field appearance="fill" [ngClass]="{'coming-week': isInComingWeek}">
+      <mat-label>Start Date</mat-label>
+      <input matInput [value]="course.start" [readonly]="true" [ngClass]="{'coming-week-input': isInComingWeek}">
+    </mat-form-field>
+    <h5>Syllabus</h5>
+    <div *ngFor="let topic of course.syllabus">
+      <img src="../../assets/syllabus icon.png" class="tiny"/>
+      <p class="inline">{{topic}}</p>
+    </div>
+    <button *ngIf="this.isLecturer" class="edit-button" (click)="this.editClicked = true">Edit Details</button>
+  </div>
+  <div class="edit-course-overlay" *ngIf="editClicked">
+    <app-edit-course [course]="course" (saveEvent)="onSave()"></app-edit-course>
+  </div>
+</div>

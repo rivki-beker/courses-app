@@ -1,0 +1,79 @@
+<form [formGroup]="editForm" (ngSubmit)="save()" class="edit-form">
+    <div class="form-group">
+        <input type="text" class="form-control" placeholder="Name" formControlName="name">
+        <ng-container *ngIf="editClicked && editForm.controls['name'].errors as nameError">
+            <p *ngIf="nameError['required']">This field is required</p>
+            <p *ngIf="nameError['minlength']">This field must be at least 3 characters</p>
+        </ng-container>
+    </div>
+    <br>
+    <div class="form-group">
+        <select class="form-control" formControlName="categoryId">
+            <option [value]="undefined">Select a category</option>
+            <option *ngFor="let category of categories" [ngValue]="category.id">{{ category.name }}</option>
+        </select>
+        <ng-container *ngIf="editClicked && editForm.controls['categoryId'].errors as categoryIdError">
+            <p *ngIf="categoryIdError['required']">Please select a category</p>
+            <p *ngIf="categoryIdError['minlength']">This field must be at least 3 characters</p>
+        </ng-container>
+    </div>
+    <br>
+    <div class="form-group">
+        <input type="number" class="form-control" placeholder="Count of Lessons" formControlName="countOfLessons">
+        <ng-container *ngIf="editClicked && editForm.controls['countOfLessons'].errors as countOfLessonsError">
+            <p *ngIf="countOfLessonsError['required']">This field is required</p>
+            <p *ngIf="countOfLessonsError['minlength']">This field must be at least 3 characters</p>
+        </ng-container>
+    </div>
+    <br>
+    <div class="form-group">
+        <input type="datetime-local" class="form-control" placeholder="Start Date" formControlName="start">
+        <ng-container *ngIf="editClicked && editForm.controls['start'].errors as startError">
+            <p *ngIf="startError['required']">This field is required</p>
+            <p *ngIf="startError['minlength']">This field must be at least 3 characters</p>
+        </ng-container>
+    </div>
+    <br>
+    <label for="syllabus">The subjects of the lesson:</label>
+    <ng-container *ngFor="let input of inputs; let i = index">
+        <input [value]="input" (input)="onInput($event, i)" class="form-control">
+    </ng-container>
+    <ng-container *ngIf="editClicked && editForm.controls['syllabus'].errors as syllabusError">
+        <p *ngIf="syllabusError['required']">This field is required</p>
+        <p *ngIf="syllabusError['minlength']">This field must be at least 3 characters</p>
+    </ng-container>
+    <br>
+    <div class="form-group">
+        <label>Learning Way:</label>
+        <br>
+        <label>
+            <input type="radio" formControlName="learningWay" [value]="0"> Frontal
+        </label>
+        <br />
+        <label>
+            <input type="radio" formControlName="learningWay" [value]="1"> Zoom
+        </label>
+        <ng-container *ngIf="editClicked && editForm.controls['learningWay'].errors as learningWayError">
+            <p *ngIf="learningWayError['required']">Please select a learning way</p>
+            <p *ngIf="learningWayError['minlength']">This field must be at least 3 characters</p>
+        </ng-container>
+    </div>
+    <br>
+    <div class="form-group">
+        <input type="number" class="form-control" placeholder="Lecturer ID" formControlName="lecturerId">
+        <ng-container *ngIf="editClicked && editForm.controls['lecturerId'].errors as lecturerIdError">
+            <p *ngIf="lecturerIdError['required']">This field is required</p>
+            <p *ngIf="lecturerIdError['minlength']">This field must be at least 3 characters</p>
+        </ng-container>
+    </div>
+    <br>
+    <div class="form-group">
+        <input type="text" class="form-control" placeholder="Image" formControlName="image">
+        <ng-container *ngIf="editClicked && editForm.controls['image'].errors as imageError">
+            <p *ngIf="imageError['required']">This field is required</p>
+            <p *ngIf="imageError['minlength']">This field must be at least 3 characters</p>
+        </ng-container>
+    </div>
+    <button type="submit" class="btn btn-primary" [disabled]="!editForm.valid">Save Changes</button>
+    <button type="button" (click)="cancel()" class="btn btn-primary">Cancel</button>
+</form>

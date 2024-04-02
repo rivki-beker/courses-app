@@ -1,0 +1,30 @@
+<div class="container">
+    <form [formGroup]="filterForm" class="filter-form">
+        <div class="row">
+            <div class="col-md-6">
+              <input formControlName="name" class="form-control" placeholder="Search Course Name" />
+            </div>
+            <div class="col-md-6">
+              <select formControlName="category" class="form-control">
+                <option [value]="''">Select a Category</option>
+                <option *ngFor="let category of categories" [value]="category.id">{{ category.name }}</option>
+              </select>
+            </div>
+          </div>
+        <div>
+            <div class="learning-way-options">
+                <label class="learning-way-option"><input type="radio" formControlName="learningWay" [value]="''"> All</label>
+                <label class="learning-way-option"><input type="radio" formControlName="learningWay" [value]="0"> Frontal</label>
+                <label class="learning-way-option"><input type="radio" formControlName="learningWay" [value]="1"> Zoom</label>
+            </div>
+        </div>
+    </form>
+    
+    <div class="course-grid">
+        <div *ngFor="let c of filteredCourses" class="course-card">
+            <app-mini-course-details [course]='c'></app-mini-course-details>
+        </div>
+    </div>
+</div>
+
+<button  *ngIf="isLecturer" class="add-course-button" (click)="goAdd()">Add Course</button>

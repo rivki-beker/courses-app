@@ -1,0 +1,132 @@
+Y:\Groups\Group_4\בקר  רבקה\angular\Project\CourseAPI\serverProject\bin\Debug\net6.0\appsettings.Development.json
+Y:\Groups\Group_4\בקר  רבקה\angular\Project\CourseAPI\serverProject\bin\Debug\net6.0\appsettings.json
+Y:\Groups\Group_4\בקר  רבקה\angular\Project\CourseAPI\serverProject\bin\Debug\net6.0\serverProject.exe
+Y:\Groups\Group_4\בקר  רבקה\angular\Project\CourseAPI\serverProject\bin\Debug\net6.0\serverProject.deps.json
+Y:\Groups\Group_4\בקר  רבקה\angular\Project\CourseAPI\serverProject\bin\Debug\net6.0\serverProject.runtimeconfig.json
+Y:\Groups\Group_4\בקר  רבקה\angular\Project\CourseAPI\serverProject\bin\Debug\net6.0\serverProject.dll
+Y:\Groups\Group_4\בקר  רבקה\angular\Project\CourseAPI\serverProject\bin\Debug\net6.0\serverProject.pdb
+Y:\Groups\Group_4\בקר  רבקה\angular\Project\CourseAPI\serverProject\bin\Debug\net6.0\Microsoft.OpenApi.dll
+Y:\Groups\Group_4\בקר  רבקה\angular\Project\CourseAPI\serverProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+Y:\Groups\Group_4\בקר  רבקה\angular\Project\CourseAPI\serverProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+Y:\Groups\Group_4\בקר  רבקה\angular\Project\CourseAPI\serverProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+Y:\Groups\Group_4\בקר  רבקה\angular\Project\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.csproj.AssemblyReference.cache
+Y:\Groups\Group_4\בקר  רבקה\angular\Project\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.GeneratedMSBuildEditorConfig.editorconfig
+Y:\Groups\Group_4\בקר  רבקה\angular\Project\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.AssemblyInfoInputs.cache
+Y:\Groups\Group_4\בקר  רבקה\angular\Project\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.AssemblyInfo.cs
+Y:\Groups\Group_4\בקר  רבקה\angular\Project\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.csproj.CoreCompileInputs.cache
+Y:\Groups\Group_4\בקר  רבקה\angular\Project\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.MvcApplicationPartsAssemblyInfo.cs
+Y:\Groups\Group_4\בקר  רבקה\angular\Project\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.MvcApplicationPartsAssemblyInfo.cache
+Y:\Groups\Group_4\בקר  רבקה\angular\Project\CourseAPI\serverProject\obj\Debug\net6.0\staticwebassets.build.json
+Y:\Groups\Group_4\בקר  רבקה\angular\Project\CourseAPI\serverProject\obj\Debug\net6.0\staticwebassets.development.json
+Y:\Groups\Group_4\בקר  רבקה\angular\Project\CourseAPI\serverProject\obj\Debug\net6.0\scopedcss\bundle\serverProject.styles.css
+Y:\Groups\Group_4\בקר  רבקה\angular\Project\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.csproj.CopyComplete
+Y:\Groups\Group_4\בקר  רבקה\angular\Project\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.dll
+Y:\Groups\Group_4\בקר  רבקה\angular\Project\CourseAPI\serverProject\obj\Debug\net6.0\refint\serverProject.dll
+Y:\Groups\Group_4\בקר  רבקה\angular\Project\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.pdb
+Y:\Groups\Group_4\בקר  רבקה\angular\Project\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.genruntimeconfig.cache
+Y:\Groups\Group_4\בקר  רבקה\angular\Project\CourseAPI\serverProject\obj\Debug\net6.0\ref\serverProject.dll
+D:\אנגולר\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.csproj.AssemblyReference.cache
+D:\אנגולר\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\אנגולר\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.AssemblyInfoInputs.cache
+D:\אנגולר\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.AssemblyInfo.cs
+D:\אנגולר\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.csproj.CoreCompileInputs.cache
+D:\אנגולר\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.MvcApplicationPartsAssemblyInfo.cs
+D:\אנגולר\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.MvcApplicationPartsAssemblyInfo.cache
+D:\אנגולר\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.dll
+D:\אנגולר\CourseAPI\serverProject\obj\Debug\net6.0\refint\serverProject.dll
+D:\אנגולר\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.pdb
+D:\אנגולר\CourseAPI\serverProject\bin\Debug\net6.0\appsettings.Development.json
+D:\אנגולר\CourseAPI\serverProject\bin\Debug\net6.0\appsettings.json
+D:\אנגולר\CourseAPI\serverProject\bin\Debug\net6.0\serverProject.exe
+D:\אנגולר\CourseAPI\serverProject\bin\Debug\net6.0\serverProject.deps.json
+D:\אנגולר\CourseAPI\serverProject\bin\Debug\net6.0\serverProject.runtimeconfig.json
+D:\אנגולר\CourseAPI\serverProject\bin\Debug\net6.0\serverProject.dll
+D:\אנגולר\CourseAPI\serverProject\bin\Debug\net6.0\serverProject.pdb
+D:\אנגולר\CourseAPI\serverProject\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\אנגולר\CourseAPI\serverProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\אנגולר\CourseAPI\serverProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\אנגולר\CourseAPI\serverProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\אנגולר\CourseAPI\serverProject\obj\Debug\net6.0\staticwebassets\msbuild.serverProject.Microsoft.AspNetCore.StaticWebAssets.props
+D:\אנגולר\CourseAPI\serverProject\obj\Debug\net6.0\staticwebassets\msbuild.build.serverProject.props
+D:\אנגולר\CourseAPI\serverProject\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.serverProject.props
+D:\אנגולר\CourseAPI\serverProject\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.serverProject.props
+D:\אנגולר\CourseAPI\serverProject\obj\Debug\net6.0\staticwebassets.pack.json
+D:\אנגולר\CourseAPI\serverProject\obj\Debug\net6.0\staticwebassets.build.json
+D:\אנגולר\CourseAPI\serverProject\obj\Debug\net6.0\staticwebassets.development.json
+D:\אנגולר\CourseAPI\serverProject\obj\Debug\net6.0\scopedcss\bundle\serverProject.styles.css
+D:\אנגולר\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.csproj.CopyComplete
+D:\אנגולר\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.genruntimeconfig.cache
+D:\אנגולר\CourseAPI\serverProject\obj\Debug\net6.0\ref\serverProject.dll
+C:\Users\user\Documents\תכנות\CourseAPI\serverProject\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\user\Documents\תכנות\CourseAPI\serverProject\bin\Debug\net6.0\appsettings.json
+C:\Users\user\Documents\תכנות\CourseAPI\serverProject\bin\Debug\net6.0\serverProject.exe
+C:\Users\user\Documents\תכנות\CourseAPI\serverProject\bin\Debug\net6.0\serverProject.deps.json
+C:\Users\user\Documents\תכנות\CourseAPI\serverProject\bin\Debug\net6.0\serverProject.runtimeconfig.json
+C:\Users\user\Documents\תכנות\CourseAPI\serverProject\bin\Debug\net6.0\serverProject.dll
+C:\Users\user\Documents\תכנות\CourseAPI\serverProject\bin\Debug\net6.0\serverProject.pdb
+C:\Users\user\Documents\תכנות\CourseAPI\serverProject\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\user\Documents\תכנות\CourseAPI\serverProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user\Documents\תכנות\CourseAPI\serverProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user\Documents\תכנות\CourseAPI\serverProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user\Documents\תכנות\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.csproj.AssemblyReference.cache
+C:\Users\user\Documents\תכנות\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\תכנות\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.AssemblyInfoInputs.cache
+C:\Users\user\Documents\תכנות\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.AssemblyInfo.cs
+C:\Users\user\Documents\תכנות\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\תכנות\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user\Documents\תכנות\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Documents\תכנות\CourseAPI\serverProject\obj\Debug\net6.0\staticwebassets\msbuild.serverProject.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\user\Documents\תכנות\CourseAPI\serverProject\obj\Debug\net6.0\staticwebassets\msbuild.build.serverProject.props
+C:\Users\user\Documents\תכנות\CourseAPI\serverProject\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.serverProject.props
+C:\Users\user\Documents\תכנות\CourseAPI\serverProject\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.serverProject.props
+C:\Users\user\Documents\תכנות\CourseAPI\serverProject\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\user\Documents\תכנות\CourseAPI\serverProject\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\user\Documents\תכנות\CourseAPI\serverProject\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\user\Documents\תכנות\CourseAPI\serverProject\obj\Debug\net6.0\scopedcss\bundle\serverProject.styles.css
+C:\Users\user\Documents\תכנות\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.csproj.CopyComplete
+C:\Users\user\Documents\תכנות\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.dll
+C:\Users\user\Documents\תכנות\CourseAPI\serverProject\obj\Debug\net6.0\refint\serverProject.dll
+C:\Users\user\Documents\תכנות\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.pdb
+C:\Users\user\Documents\תכנות\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.genruntimeconfig.cache
+C:\Users\user\Documents\תכנות\CourseAPI\serverProject\obj\Debug\net6.0\ref\serverProject.dll
+C:\Users\user\Documents\תכנות\AngularProject\CourseAPI\serverProject\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\user\Documents\תכנות\AngularProject\CourseAPI\serverProject\bin\Debug\net6.0\appsettings.json
+C:\Users\user\Documents\תכנות\AngularProject\CourseAPI\serverProject\bin\Debug\net6.0\serverProject.exe
+C:\Users\user\Documents\תכנות\AngularProject\CourseAPI\serverProject\bin\Debug\net6.0\serverProject.deps.json
+C:\Users\user\Documents\תכנות\AngularProject\CourseAPI\serverProject\bin\Debug\net6.0\serverProject.runtimeconfig.json
+C:\Users\user\Documents\תכנות\AngularProject\CourseAPI\serverProject\bin\Debug\net6.0\serverProject.dll
+C:\Users\user\Documents\תכנות\AngularProject\CourseAPI\serverProject\bin\Debug\net6.0\serverProject.pdb
+C:\Users\user\Documents\תכנות\AngularProject\CourseAPI\serverProject\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\user\Documents\תכנות\AngularProject\CourseAPI\serverProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user\Documents\תכנות\AngularProject\CourseAPI\serverProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user\Documents\תכנות\AngularProject\CourseAPI\serverProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user\Documents\תכנות\AngularProject\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.csproj.AssemblyReference.cache
+C:\Users\user\Documents\תכנות\AngularProject\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\תכנות\AngularProject\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.AssemblyInfoInputs.cache
+C:\Users\user\Documents\תכנות\AngularProject\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.AssemblyInfo.cs
+C:\Users\user\Documents\תכנות\AngularProject\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\תכנות\AngularProject\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user\Documents\תכנות\AngularProject\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Documents\תכנות\AngularProject\CourseAPI\serverProject\obj\Debug\net6.0\staticwebassets\msbuild.serverProject.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\user\Documents\תכנות\AngularProject\CourseAPI\serverProject\obj\Debug\net6.0\staticwebassets\msbuild.build.serverProject.props
+C:\Users\user\Documents\תכנות\AngularProject\CourseAPI\serverProject\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.serverProject.props
+C:\Users\user\Documents\תכנות\AngularProject\CourseAPI\serverProject\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.serverProject.props
+C:\Users\user\Documents\תכנות\AngularProject\CourseAPI\serverProject\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\user\Documents\תכנות\AngularProject\CourseAPI\serverProject\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\user\Documents\תכנות\AngularProject\CourseAPI\serverProject\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\user\Documents\תכנות\AngularProject\CourseAPI\serverProject\obj\Debug\net6.0\scopedcss\bundle\serverProject.styles.css
+C:\Users\user\Documents\תכנות\AngularProject\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.csproj.CopyComplete
+C:\Users\user\Documents\תכנות\AngularProject\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.dll
+C:\Users\user\Documents\תכנות\AngularProject\CourseAPI\serverProject\obj\Debug\net6.0\refint\serverProject.dll
+C:\Users\user\Documents\תכנות\AngularProject\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.pdb
+C:\Users\user\Documents\תכנות\AngularProject\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.genruntimeconfig.cache
+C:\Users\user\Documents\תכנות\AngularProject\CourseAPI\serverProject\obj\Debug\net6.0\ref\serverProject.dll
+D:\פרויקט אנגולר 2\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.dll
+D:\פרויקט אנגולר 2\CourseAPI\serverProject\obj\Debug\net6.0\refint\serverProject.dll
+D:\פרויקט אנגולר 2\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.pdb
+E:\פרויקט אנגולר 2\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.dll
+E:\פרויקט אנגולר 2\CourseAPI\serverProject\obj\Debug\net6.0\refint\serverProject.dll
+E:\פרויקט אנגולר 2\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.pdb
+D:\github\courses app\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.dll
+D:\github\courses app\CourseAPI\serverProject\obj\Debug\net6.0\refint\serverProject.dll
+D:\github\courses app\CourseAPI\serverProject\obj\Debug\net6.0\serverProject.pdb

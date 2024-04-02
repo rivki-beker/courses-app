@@ -1,0 +1,10 @@
+<mat-toolbar color="primary">
+    <span class="brand">A personal moment</span>
+    <span class="spacer"></span>
+    <button mat-raised-button color="accent" (click)="home()">Home</button>
+    <button *ngIf="!isConnected()" mat-raised-button color="accent" (click)="login()">Log In</button>
+    <button *ngIf="!isConnected()"mat-raised-button color="accent" (click)="register()">Register</button>
+    <button *ngIf="isConnected()" mat-raised-button color="accent" (click)="logout()">Log Out</button>
+    <button mat-raised-button color="accent" (click)="allCourses()">Our Courses</button>
+    <button *ngIf="isLecturer()" mat-raised-button color="accent" (click)="addCourse()">Add Course</button>
+  </mat-toolbar>

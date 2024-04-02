@@ -1,0 +1,29 @@
+.edit-form {
+    max-width: 500px;
+    margin: auto;
+    padding: 50px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.error-message {
+    color: #dc3545;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.btn-primary {
+    background-color: #081142;
+    margin-right: 20px;
+    border: none;
+    color: #fff
+}

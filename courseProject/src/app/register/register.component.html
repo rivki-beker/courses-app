@@ -1,0 +1,31 @@
+<form [formGroup]="registerForm" (ngSubmit)="register()" class="hashadchan-registration-form">
+    <div class="form-group">
+        <input type="text" class="form-control" placeholder="Name" formControlName="name">
+        <ng-container *ngIf="registerClicked && registerForm.controls['name'].errors">
+            <p class="error-message" *ngIf="registerForm.controls['name'].errors['required']">This field is required</p>
+            <p class="error-message" *ngIf="registerForm.controls['name'].errors['minlength']">This field must be at least 3 characters</p>
+        </ng-container>
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control" placeholder="Address" formControlName="address">
+        <ng-container *ngIf="registerClicked && registerForm.controls['address'].errors">
+            <p class="error-message" *ngIf="registerForm.controls['address'].errors['required']">This field is required</p>
+            <p class="error-message" *ngIf="registerForm.controls['address'].errors['minlength']">This field must be at least 3 characters</p>
+        </ng-container>
+    </div>
+    <div class="form-group">
+        <input type="email" class="form-control" placeholder="Email" formControlName="email">
+        <ng-container *ngIf="registerClicked && registerForm.controls['email'].errors">
+            <p class="error-message" *ngIf="registerForm.controls['email'].errors['required']">This field is required</p>
+            <p class="error-message" *ngIf="registerForm.controls['email'].errors['email']">Invalid email address</p>
+        </ng-container>
+    </div>
+    <div class="form-group">
+        <input type="password" class="form-control" placeholder="Password" formControlName="password">
+        <ng-container *ngIf="registerClicked && registerForm.controls['password'].errors">
+            <p class="error-message" *ngIf="registerForm.controls['password'].errors['required']">This field is required</p>
+            <p class="error-message" *ngIf="registerForm.controls['password'].errors['minlength']">This field must be at least 8 digits</p>
+        </ng-container>
+    </div>
+    <button type="submit" class="btn btn-primary" [disabled]="!registerForm.valid">Create</button>
+</form>
