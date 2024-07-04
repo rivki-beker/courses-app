@@ -29,7 +29,7 @@
 /courseProject/.history/*
 
 # Miscellaneous
-/courseProject/.angular/cache
+courseProject/.angular/cache
 /courseProject/.sass-cache/
 /courseProject/connect.lock
 /courseProject/coverage
