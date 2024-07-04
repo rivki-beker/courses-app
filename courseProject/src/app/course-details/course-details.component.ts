@@ -48,7 +48,12 @@ export class CourseDetailsComponent {
         }
       });
     });
-    this.isLecturer= sessionStorage.getItem('isLecturer') === 'true';
+    
+    if (typeof window !== 'undefined' && typeof sessionStorage !== 'undefined') {
+      this.isLecturer = sessionStorage.getItem('isLecturer') === 'true';
+    } else {
+      this.isLecturer = false;
+    }
   }
 
   checkComingWeek() {

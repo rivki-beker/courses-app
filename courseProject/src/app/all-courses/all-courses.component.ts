@@ -36,16 +36,16 @@ export class AllCoursesComponent {
       category: new FormControl(''),
       learningWay: new FormControl(''),
     });
-
+  
     this.subscribeToFormChanges();
-
+  
     this.categoryService.getCategories().subscribe({
       next: (res) => {
         this.categories = res;
       },
       error: (err) => { console.error(err); }
     });
-
+  
     this.courseService.getCourses().subscribe({
       next: (res) => {
         this.courses = res;
@@ -53,9 +53,13 @@ export class AllCoursesComponent {
       },
       error: (err) => { console.error(err); }
     });
-
-    this.isLecturer= sessionStorage.getItem('isLecturer') === 'true';
-  }
+  
+    if (typeof window !== 'undefined' && typeof sessionStorage !== 'undefined') {
+      this.isLecturer = sessionStorage.getItem('isLecturer') === 'true';
+    } else {
+      this.isLecturer = false;
+    }
+  }  
 
   private subscribeToFormChanges() {
     this.filterForm.valueChanges.subscribe(() => {
