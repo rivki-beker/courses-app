@@ -21,7 +21,7 @@
     "@angular/platform-browser": "^17.2.0",
     "@angular/platform-browser-dynamic": "^17.2.0",
     "@angular/platform-server": "^17.2.0",
-    "@angular/router": "^17.2.0",
+    "@angular/router": "^17.2.4",
     "@angular/ssr": "^17.2.3",
     "bootstrap": "^5.3.3",
     "dotenv": "^16.4.5",

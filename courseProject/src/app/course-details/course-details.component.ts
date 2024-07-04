@@ -21,7 +21,7 @@ export class CourseDetailsComponent {
   public course!: Course;
   public category!: Category;
   public isInComingWeek = false;
-  public isLecturer = sessionStorage.getItem('isLecturer') === 'true';
+  public isLecturer!:boolean;
   public editClicked=false;
 
   constructor(private router: Router, private route: ActivatedRoute, private categoryService: CategoryService, private courseService: CourseService) { }
@@ -48,6 +48,7 @@ export class CourseDetailsComponent {
         }
       });
     });
+    this.isLecturer= sessionStorage.getItem('isLecturer') === 'true';
   }
 
   checkComingWeek() {

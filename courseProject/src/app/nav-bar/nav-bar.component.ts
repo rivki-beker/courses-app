@@ -7,52 +7,49 @@ import { MatButtonModule } from '@angular/material/button';
 @Component({
   selector: 'app-nav-bar',
   standalone: true,
-  imports: [CommonModule,MatToolbarModule, MatButtonModule],
+  imports: [CommonModule, MatToolbarModule, MatButtonModule],
   templateUrl: './nav-bar.component.html',
-  styleUrl: './nav-bar.component.css'
+  styleUrls: ['./nav-bar.component.css']
 })
 export class NavBarComponent {
 
-  constructor(private router: Router){}
+  constructor(private router: Router) {}
 
-  isConnected(){
-    return sessionStorage.getItem('userDetails')!=null;
+  isConnected() {
+    return typeof sessionStorage !== 'undefined' && sessionStorage.getItem('userDetails') != null;
   }
 
-  isLecturer(){
-    return sessionStorage.getItem('isLecturer') === 'true';
+  isLecturer() {
+    return typeof sessionStorage !== 'undefined' && sessionStorage.getItem('isLecturer') === 'true';
   }
 
-  home(){
+  home() {
     this.router.navigate(['/home']);
   }
 
-  login()
-  {
+  login() {
     this.router.navigate(['/login']);
   }
 
-  register()
-  {
+  register() {
     this.router.navigate(['/register']);
   }
 
-  logout()
-  {
-    sessionStorage.removeItem('userDetails');
-    sessionStorage.removeItem('isLecturer');
+  logout() {
+    if (typeof sessionStorage !== 'undefined') {
+      sessionStorage.removeItem('userDetails');
+      sessionStorage.removeItem('isLecturer');
+    }
     this.router.navigateByUrl('/', { skipLocationChange: true }).then(() => {
       this.router.navigate(['/home']);
     });
   }
 
-  allCourses()
-  {
+  allCourses() {
     this.router.navigate(['/allCourses']);
   }
 
-  addCourse()
-  {
+  addCourse() {
     this.router.navigate(['/addCourse']);
   }
 }

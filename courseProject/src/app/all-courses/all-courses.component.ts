@@ -22,7 +22,7 @@ export class AllCoursesComponent {
   public filteredCourses: Course[] = [];
   public categories: Category[] = [];
   public filterForm!: FormGroup;
-  public isLecturer = sessionStorage.getItem('isLecturer') === 'true';
+  public isLecturer!:boolean;
 
   constructor(
     private router: Router,
@@ -53,6 +53,8 @@ export class AllCoursesComponent {
       },
       error: (err) => { console.error(err); }
     });
+
+    this.isLecturer= sessionStorage.getItem('isLecturer') === 'true';
   }
 
   private subscribeToFormChanges() {

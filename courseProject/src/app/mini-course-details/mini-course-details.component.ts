@@ -4,7 +4,7 @@ import { Category } from '../entities/category.model';
 import { CategoryService } from '../services/category.service';
 import { LearningWayIconPipe } from '../learning-way-icon.pipe';
 import { CommonModule } from '@angular/common';
-import { Router } from '@angular/router'; 
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-mini-course-details',
@@ -20,9 +20,9 @@ export class MiniCourseDetailsComponent {
 
   public category?: Category;
 
-  public isLecturer = sessionStorage.getItem('isLecturer') === 'true';
+  public isLecturer!:boolean;
 
-  public isConnected = sessionStorage.getItem('userDetails');
+  public isConnected!:boolean;
 
   constructor(private router: Router, private categoryService: CategoryService) { }
 
@@ -37,6 +37,9 @@ export class MiniCourseDetailsComponent {
           console.error(err);
         }
       });
+
+      this.isLecturer = sessionStorage.getItem('isLecturer') === 'true';
+      this.isConnected = sessionStorage.getItem('userDetails')==='true';
   }
 
   goCourseDetails() {
