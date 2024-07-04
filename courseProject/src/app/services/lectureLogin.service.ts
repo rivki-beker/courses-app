@@ -3,6 +3,7 @@ import { HttpClient, HttpResponse, HttpErrorResponse } from '@angular/common/htt
 import { Observable, throwError } from 'rxjs';
 import { catchError, map } from 'rxjs/operators';
 import { Lecturer } from '../entities/lecturer.model';
+import { environment } from '../../environments/environment'
 
 @Injectable({
   providedIn: 'root',
@@ -12,7 +13,7 @@ export class LecturerLoginService {
 
   checkLogin(name: string, password: string): Observable<Lecturer> {
     
-    const apiUrl =`${process.env['API_URL']}/Lecturer?name=${name}&password=${password}`;
+    const apiUrl =`${environment.apiUrl}/Lecturer?name=${name}&password=${password}`;
     
     return this.http.get(apiUrl, { observe: 'response' })
       .pipe(

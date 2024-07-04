@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "oFo6EYpOEdiJ9R7qBUx+DjkkjxJXc17neiqGPPFoDhac7pnDdf/iGkUEHQOlqFV6/Ca4YoTfbr9KI618yMXBWg==",
-  "success": false,
-  "projectFilePath": "D:\\github\\courses app\\CourseAPI\\serverProject\\serverProject.csproj",
-  "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
-      "libraryId": "Swashbuckle.AspNetCore"
-    }
-  ]
+  "dgSpecHash": "M1g5lZRrr+3ZTCeZoIXiNauNFTCSFobYpLo0hAmgjByMpOED+2VvqMT9W2VCKdLwT0rixfwGEKzkeDfKE60mkA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\Desktop\\courses app\\CourseAPI\\serverProject\\serverProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
 }

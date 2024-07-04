@@ -3,6 +3,7 @@ import { HttpClient, HttpResponse, HttpErrorResponse } from '@angular/common/htt
 import { Observable, throwError } from 'rxjs';
 import { catchError, map } from 'rxjs/operators';
 import { User } from '../entities/user.model';
+import { environment } from '../../environments/environment'
 
 @Injectable({
   providedIn: 'root',
@@ -12,7 +13,7 @@ export class UserLoginService {
 
   checkLogin(name: string, password: string): Observable<User> {
     
-    const apiUrl =`${process.env['API_URL']}/User?name=${name}&password=${password}`;
+    const apiUrl =`${environment.apiUrl}/User?name=${name}&password=${password}`;
     
     return this.http.get(apiUrl, { observe: 'response' })
       .pipe(
@@ -34,7 +35,7 @@ export class UserLoginService {
   }
  
   addUser(username: string, address: string, email: string, password: string) {
-    const url = `${process.env['API_URL']}/User`;
+    const url = `${environment.apiUrl}/User`;
     const userData = {
       name: username,
       address: address,
