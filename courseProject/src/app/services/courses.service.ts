@@ -7,21 +7,22 @@ import { Course } from '../entities/course.model';
   providedIn: 'root',
 })
 export class CourseService {
+  private apiUrl = `${process.env['API_URL']}/Course`;
 
   constructor(private http: HttpClient) { }
 
   getCourses(): Observable<Course[]> {
-    return this.http.get<Course[]>('http://localhost:5242/api/Course');
+    return this.http.get<Course[]>(this.apiUrl);
   }
 
   getCourseById(id: number): Observable<Course> {
-    return this.http.get<Course>(`http://localhost:5242/api/Course/${id}`);
+    return this.http.get<Course>(`${this.apiUrl}/${id}`);
   }
 
   updateCourse(course: Course): Observable<void> {
     if (course.id == null)
       course.id = 0;
-    const url = `http://localhost:5242/api/Course/${course.id}`;
+    const url = `${this.apiUrl}/${course.id}`;
     return this.http.put<void>(url, course);
   }
 }

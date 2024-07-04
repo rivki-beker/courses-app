@@ -12,7 +12,7 @@ export class UserLoginService {
 
   checkLogin(name: string, password: string): Observable<User> {
     
-    const apiUrl =`http://localhost:5242/api/User?name=${name}&password=${password}`;
+    const apiUrl =`${process.env['API_URL']}/User?name=${name}&password=${password}`;
     
     return this.http.get(apiUrl, { observe: 'response' })
       .pipe(
@@ -34,7 +34,7 @@ export class UserLoginService {
   }
  
   addUser(username: string, address: string, email: string, password: string) {
-    const url = 'http://localhost:5242/api/User';
+    const url = `${process.env['API_URL']}/User`;
     const userData = {
       name: username,
       address: address,

@@ -7,14 +7,15 @@ import { Category } from '../entities/category.model';
   providedIn: 'root'
 })
 export class CategoryService {
+  private apiUrl = `${process.env['API_URL']}/Category`;
 
   constructor(private http: HttpClient) { }
 
   getCategoryById(id: number): Observable<Category> {
-    return this.http.get<Category>(`http://localhost:5242/api/Category/${id}`);
+    return this.http.get<Category>(`${this.apiUrl}/${id}`);
   }
   
   getCategories():Observable<Category[]>{
-    return this.http.get<Category[]>(`http://localhost:5242/api/Category`);
+    return this.http.get<Category[]>(this.apiUrl);
   }
 }

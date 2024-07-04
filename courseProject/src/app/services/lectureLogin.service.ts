@@ -12,7 +12,7 @@ export class LecturerLoginService {
 
   checkLogin(name: string, password: string): Observable<Lecturer> {
     
-    const apiUrl =`http://localhost:5242/api/Lecturer?name=${name}&password=${password}`;
+    const apiUrl =`${process.env['API_URL']}/Lecturer?name=${name}&password=${password}`;
     
     return this.http.get(apiUrl, { observe: 'response' })
       .pipe(
