@@ -3,9 +3,13 @@
     <h3 class="card-title">{{ course.name }}</h3>
     <p class="card-text">Number of Lessons: {{ course.countOfLessons }}</p>
     <span class="learning-mode-icon" [ngClass]="course.learningWay | learningWayIcon"></span>
-    <p class="card-text inline">Learning Way: {{course.learningWay?"Zoom": "frontal"}}</p>
-    <img [src]="category.icon" alt="{{ category.name }} Icon" class="img-fluid mb-3 round">
-    <p class="card-text">{{ category.name }}</p>
+    <p class="card-text inline">Learning Way: {{course.learningWay ? "Zoom" : "frontal"}}</p>
+    
+    <div *ngIf="category">
+        <img [src]="category.icon" alt="{{ category.name }} Icon" class="img-fluid mb-3 round">
+        <p class="card-text">{{ category.name }}</p>
+    </div>
+    
     <br />
     <button *ngIf="isConnected" class="btn btn-primary" (click)="goCourseDetails()">See More</button>
 </div>

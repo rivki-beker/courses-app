@@ -11,18 +11,18 @@ import { Router } from '@angular/router';
   standalone: true,
   imports: [CommonModule, LearningWayIconPipe],
   templateUrl: './mini-course-details.component.html',
-  styleUrl: './mini-course-details.component.css'
+  styleUrls: ['./mini-course-details.component.css']
 })
 export class MiniCourseDetailsComponent {
 
   @Input()
   public course!: Course;
 
-  public category!: Category;
+  public category?: Category;
 
   public isLecturer = sessionStorage.getItem('isLecturer') === 'true';
 
-  public isConnected=sessionStorage.getItem('userDetails');
+  public isConnected = sessionStorage.getItem('userDetails');
 
   constructor(private router: Router, private categoryService: CategoryService) { }
 
@@ -38,6 +38,7 @@ export class MiniCourseDetailsComponent {
         }
       });
   }
+
   goCourseDetails() {
     console.log("this.course.id", this.course.id)
     this.router.navigate(['/courseDetails/', this.course.id]);

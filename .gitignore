@@ -1,42 +1,42 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # Compiled output
-/dist
-/tmp
-/out-tsc
-/bazel-out
+/courseProject/dist
+/courseProject/tmp
+/courseProject/out-tsc
+/courseProject/bazel-out
 
 # Node
-/node_modules
-npm-debug.log
-yarn-error.log
+/courseProject/node_modules
+/courseProject/npm-debug.log
+/courseProject/yarn-error.log
 
 # IDEs and editors
-.idea/
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
+/courseProject/.idea/
+/courseProject/.project
+/courseProject/.classpath
+/courseProject/.c9/
+/courseProject/*.launch
+/courseProject/.settings/
+/courseProject/*.sublime-workspace
 
 # Visual Studio Code
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
+/courseProject/.vscode/*
+/courseProject/!.vscode/settings.json
+/courseProject/!.vscode/tasks.json
+/courseProject/!.vscode/launch.json
+/courseProject/!.vscode/extensions.json
+/courseProject/.history/*
 
 # Miscellaneous
-/.angular/cache
-.sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
-testem.log
-/typings
+/courseProject/.angular/cache
+/courseProject/.sass-cache/
+/courseProject/connect.lock
+/courseProject/coverage
+/courseProject/libpeerconnection.log
+/courseProject/testem.log
+/courseProject/typings
 
 # System files
-.DS_Store
-Thumbs.db
+/courseProject/.DS_Store
+/courseProject/Thumbs.db
