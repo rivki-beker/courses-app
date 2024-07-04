@@ -11,39 +11,47 @@ import { Router } from '@angular/router';
   standalone: true,
   imports: [CommonModule, LearningWayIconPipe],
   templateUrl: './mini-course-details.component.html',
-  styleUrls: ['./mini-course-details.component.css']
+  styleUrls: ['./mini-course-details.component.css'],
 })
 export class MiniCourseDetailsComponent {
-
   @Input()
   public course!: Course;
 
   public category?: Category;
 
-  public isLecturer!:boolean;
+  public isLecturer!: boolean;
 
-  public isConnected!:boolean;
+  public isConnected!: boolean;
 
-  constructor(private router: Router, private categoryService: CategoryService) { }
+  constructor(
+    private router: Router,
+    private categoryService: CategoryService
+  ) {}
 
   ngOnInit() {
-    this.categoryService.getCategoryById(this.course.categoryId).subscribe(
-      {
-        next: (res) => {
-          this.category = res;
-          console.log("res", res);
-        },
-        error: (err) => {
-          console.error(err);
-        }
-      });
-
+    this.categoryService.getCategoryById(this.course.categoryId).subscribe({
+      next: (res) => {
+        this.category = res;
+        console.log('res', res);
+      },
+      error: (err) => {
+        console.error(err);
+      },
+    });
+    if (
+      typeof window !== 'undefined' &&
+      typeof sessionStorage !== 'undefined'
+    ) {
       this.isLecturer = sessionStorage.getItem('isLecturer') === 'true';
-      this.isConnected = sessionStorage.getItem('userDetails')==='true';
+      this.isConnected = sessionStorage.getItem('userDetails') === 'true';
+    } else {
+      this.isLecturer = false;
+      this.isConnected = false;
+    }
   }
 
   goCourseDetails() {
-    console.log("this.course.id", this.course.id)
+    console.log('this.course.id', this.course.id);
     this.router.navigate(['/courseDetails/', this.course.id]);
   }
 }
