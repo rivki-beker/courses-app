@@ -24,14 +24,14 @@
       - By learning method (frontal/Zoom).
 
 ## Technologies Used
-  - C# (.NET)
-  - Angular
-  - Bootstrap
-  - SweetAlert
+  - **C# (.NET):** Robust backend development for server-side functionality.
+  - **Angular 17:** Advanced client-side development with modern and efficient code.
+  - **Bootstrap:** Development of an advanced UI using this popular CSS framework.
+  - **SweetAlert:** Enhanced user interactions through custom alerts.
 
 ## External Libraries
-  - Bootstrap for styling.
-  - SweetAlert (Swal) for user interactions.
+  - **Bootstrap:** For responsive and modern styling.
+  - **SweetAlert (Swal):** For creating interactive and customizable alert dialogs.
 
 ## Usage
 
