@@ -43,8 +43,8 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/estyxxxx/your-repository-name.git
-   cd your-repository-name
+   git clone https://github.com/rivki-beker/courses-app
+   cd courses-app
    ```
 
 2. **Backend Setup (C# .NET in `CourseAPI` folder):**
